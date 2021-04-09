@@ -176,7 +176,17 @@ body {
   background-color: #101d2c;
   grid-column: col-start 7/full-end;
 }
-
+.realtors__list {
+  display: grid;
+  grid-template-columns: min-content max-content;
+  column-gap: 2rem;
+  row-gap: 5vh;
+}
+.realtors__img {
+  width: 10rem;
+  border-radius: 50%;
+  display: block;
+}
 .features {
   grid-column: center-start/center-end;
   margin: 15rem 0;
